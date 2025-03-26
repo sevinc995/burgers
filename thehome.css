@@ -1,0 +1,25 @@
+#thehome {
+  background-color: #f1f8f9;
+}
+#thehome .textbox h1 {
+  font-weight: 700;
+  font-size: 60px;
+  color: #36b3bd;
+  width: 400px;
+}
+#thehome .textbox h5 {
+  font-size: 20px;
+  color: #676f8b;
+  margin: 25px 75px 50px 0;
+  line-height: 1.3;
+}
+#thehome .textbox .btn {
+  padding: 13px 30px;
+  background-color: #38b6c1;
+  color: white;
+  border-radius: 5px;
+  font-size: 20px;
+}
+#thehome .imgbox {
+  width: 520px;
+}/*# sourceMappingURL=thehome.css.map */
