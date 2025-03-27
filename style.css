@@ -60,6 +60,9 @@ header nav .home-color {
 #beautiful .box h4 {
   font-size: 20px;
 }
+#beautiful .imgbox {
+  width: 450px;
+}
 @media (min-width: 300px) {
   #beautiful .box {
     display: flex;
@@ -86,7 +89,7 @@ header nav .home-color {
   }
   #beautiful .box .imgbox {
     width: 100px;
-    margin: 10px;
+    margin: 20px 0 10px;
   }
   #beautiful .imgbox {
     margin: 80px 10px;
@@ -108,14 +111,59 @@ header nav .home-color {
   }
   #beautiful .box .imgbox {
     width: 120px;
-    margin: 80px 10px;
+    margin: 20px 0 10px;
+  }
+}
+@media (min-width: 768px) {
+  #beautiful .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #beautiful .box h1 {
+    font-size: 60px;
+  }
+  #beautiful .box h5 {
+    font-size: 20px;
+    text-align: center;
+    margin: 70px 40px;
+  }
+  #beautiful .box .imgbox {
+    width: 120px;
+    margin: 20px 0 10px;
+  }
+  #beautiful .imgbox {
+    margin: 80px 100px;
   }
 }
 @media (min-width: 992px) {
+  #beautiful .box {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+  }
   #beautiful .box h1 {
+    text-align: start;
     font-weight: 700;
     font-size: 68px;
     margin-right: 80px;
+  }
+  #beautiful .box h5 {
+    font-size: 20px;
+    text-align: start;
+    margin: 70px 75px 50px 0;
+  }
+  #beautiful .box .imgbox {
+    width: 120px;
+    margin: 20px 0 10px;
+  }
+  #beautiful .box .btn {
+    width: 230px;
+    font-size: 20px;
+    padding: 13px 30px;
+  }
+  #beautiful .imgbox {
+    width: 400px;
   }
 }
 
