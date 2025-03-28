@@ -30,7 +30,7 @@ header nav .home-color {
 }
 
 #beautiful {
-  background-color: #f4fafb;
+  background-clor: #f4fafb;
 }
 #beautiful .box h1 {
   font-weight: 700;
@@ -63,21 +63,22 @@ header nav .home-color {
 #beautiful .imgbox {
   width: 450px;
 }
-@media (min-width: 300px) {
+@media (max-width: 300px) {
   #beautiful .box {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
   #beautiful .box h1 {
     font-size: 38px;
-    margin: -60px 5px;
+    margin: -60px 0;
     text-align: center;
   }
   #beautiful .box h5 {
     font-size: 20px;
     text-align: center;
-    margin: 70px 10px;
+    margin: 70px 0;
   }
   #beautiful .box .btn {
     font-size: 20px;
@@ -92,17 +93,51 @@ header nav .home-color {
     margin: 20px 0 10px;
   }
   #beautiful .imgbox {
-    margin: 80px 10px;
+    margin: 80px 0 0 20px;
+  }
+}
+@media (min-width: 300px) {
+  #beautiful .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #beautiful .box h1 {
+    font-size: 38px;
+    margin: -60px 0;
+    text-align: center;
+  }
+  #beautiful .box h5 {
+    font-size: 20px;
+    text-align: center;
+    margin: 70px 0;
+  }
+  #beautiful .box .btn {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-top: -40px;
+  }
+  #beautiful .box h4 {
+    font-size: 18px;
+  }
+  #beautiful .box .imgbox {
+    width: 100px;
+    margin: 20px 0 10px;
+  }
+  #beautiful .imgbox {
+    margin: 80px 0 0 20px;
   }
 }
 @media (min-width: 586px) {
   #beautiful .box {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
   #beautiful .box h1 {
-    font-size: 55px;
+    font-size: 53px;
   }
   #beautiful .box h5 {
     font-size: 20px;
@@ -118,6 +153,7 @@ header nav .home-color {
   #beautiful .box {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
   #beautiful .box h1 {
@@ -164,6 +200,7 @@ header nav .home-color {
   }
   #beautiful .imgbox {
     width: 400px;
+    margin: 0 -70px;
   }
 }
 
@@ -191,6 +228,134 @@ header nav .home-color {
 }
 #thehome .imgbox {
   width: 520px;
+}
+@media (max-width: 300px) {
+  #thehome .textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #thehome .textbox h1 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+  }
+  #thehome .textbox h5 {
+    font-size: 18px;
+    margin: 25px 15px 50px 0;
+    text-align: center;
+  }
+  #thehome .textbox .btn {
+    padding: 10px 25px;
+    font-size: 20px;
+    margin: 0 0 30px 0;
+  }
+  #thehome .imgbox {
+    width: 250px;
+    margin-left: 10px;
+  }
+}
+@media (min-width: 300px) {
+  #thehome .textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #thehome .textbox h1 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+  }
+  #thehome .textbox h5 {
+    font-size: 18px;
+    margin: 25px 15px 50px 0;
+    text-align: center;
+  }
+  #thehome .textbox .btn {
+    padding: 10px 25px;
+    font-size: 20px;
+    margin: 0 0 30px 0;
+  }
+  #thehome .imgbox {
+    width: 250px;
+    margin-left: 10px;
+  }
+}
+@media (min-width: 586px) {
+  #thehome .textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #thehome .textbox h1 {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+  }
+  #thehome .textbox h5 {
+    font-size: 20px;
+    margin: 25px 15px 50px 0;
+    text-align: center;
+  }
+  #thehome .textbox .btn {
+    padding: 10px 25px;
+    font-size: 20px;
+    margin: 0 0 30px 0;
+  }
+  #thehome .imgbox {
+    width: 400px;
+    margin-left: 30px;
+  }
+}
+@media (min-width: 768px) {
+  #thehome .textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #thehome .textbox h1 {
+    font-size: 53px;
+    font-weight: 700;
+    text-align: center;
+  }
+  #thehome .textbox h5 {
+    font-size: 20px;
+    margin: 25px 75px 50px 0;
+    text-align: center;
+  }
+  #thehome .textbox .btn {
+    padding: 13px 30px;
+    font-size: 20px;
+    margin: 0 0 30px 0;
+  }
+  #thehome .imgbox {
+    width: 470px;
+  }
+}
+@media (min-width: 990px) {
+  #thehome .textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #thehome .textbox h1 {
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+  }
+  #thehome .textbox h5 {
+    font-size: 20px;
+    margin: 25px 75px 50px 0;
+    text-align: center;
+  }
+  #thehome .textbox .btn {
+    padding: 13px 30px;
+    font-size: 20px;
+    margin: 0 0 30px 0;
+  }
+  #thehome .imgbox {
+    width: 520px;
+  }
 }
 
 #works h1 {
