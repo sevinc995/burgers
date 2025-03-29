@@ -474,18 +474,131 @@ header nav .home-color {
   #browse .textbox h1 {
     font-size: 55px;
   }
+  #browse .box {
+    display: flex;
+    flex-direction: column;
+  }
+  #browse .box .imgbox {
+    width: 250px;
+  }
+  #browse .box .textbox {
+    margin-left: -8px;
+  }
+  #browse .box .textbox .minibox {
+    display: flex;
+    flex-direction: column;
+  }
+  #browse .box .textbox .minibox h2 {
+    margin-bottom: 10px;
+  }
   #browse .btnbox {
     display: flex;
     flex-direction: column;
   }
   #browse .btnbox .btn {
-    padding: 15px 126px;
+    padding: 15px 106px;
     margin-bottom: 10px;
   }
   #browse .btnbox .bgc {
     background-color: #3cc1d8;
   }
   #browse .big {
+    color: white;
+    padding: 17px 103px;
+    margin-top: 50px;
+    background-color: #3cc1d8;
+  }
+}
+@media (min-width: 586px) {
+  #browse .textbox h1 {
+    font-size: 55px;
+  }
+  #browse .box {
+    display: flex;
+    flex-direction: column;
+  }
+  #browse .box .imgbox {
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  #browse .box .textbox .minibox {
+    display: flex;
+    flex-direction: column;
+  }
+  #browse .box .textbox .minibox h2 {
+    margin-bottom: 10px;
+  }
+  #browse .btnbox {
+    display: flex;
+    flex-direction: column;
+  }
+  #browse .btnbox .btn {
+    padding: 15px 106px;
+    margin-bottom: 10px;
+  }
+  #browse .btnbox .bgc {
+    background-color: #3cc1d8;
+  }
+  #browse .big {
+    color: white;
+    padding: 17px 103px;
+    margin-top: 50px;
+    background-color: #3cc1d8;
+  }
+}
+@media (min-width: 768px) {
+  #browse .textbox h1 {
+    font-size: 60px;
+  }
+  #browse .box {
+    display: flex;
+    flex-direction: row;
+  }
+  #browse .box .textbox {
+    margin-left: 20px;
+  }
+  #browse .btnbox {
+    display: flex;
+    flex-direction: column;
+  }
+  #browse .btnbox .btn {
+    padding: 15px 166px;
+    margin-bottom: 10px;
+  }
+  #browse .btnbox .bgc {
+    background-color: #3cc1d8;
+  }
+  #browse .big {
+    color: white;
+    padding: 17px 123px;
+    margin-top: 50px;
+    background-color: #3cc1d8;
+  }
+}
+@media (min-width: 992px) {
+  #browse .textbox h1 {
+    font-size: 60px;
+  }
+  #browse .box {
+    display: flex;
+    flex-direction: row;
+  }
+  #browse .box .textbox {
+    margin-left: 20px;
+  }
+  #browse .btnbox {
+    display: flex;
+    flex-direction: row;
+  }
+  #browse .btnbox .btn {
+    padding: 15px 46px;
+    margin-bottom: 10px;
+  }
+  #browse .btnbox .bgc {
+    background-color: #3cc1d8;
+  }
+  #browse .big {
+    color: white;
     padding: 17px 123px;
     margin-top: 50px;
     background-color: #3cc1d8;
