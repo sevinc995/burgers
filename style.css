@@ -416,14 +416,14 @@ header nav .home-color {
   color: #3cc1d8;
   text-decoration-line: underline;
 }
-#browse .btn {
+#browse .btnbox .btn {
   font-size: 16px;
   border: 0.5px solid #bdbdbd;
   padding: 15px 46px;
   margin: 0 20px;
   border-radius: 5px;
 }
-#browse .bgc {
+#browse .btnbox .bgc {
   background-color: #3cc1d8;
   color: white;
 }
@@ -470,9 +470,25 @@ header nav .home-color {
   padding: 17px 53px;
   margin-top: 50px;
 }
-@media (max-width: 586px) {
+@media (min-width: 300px) {
   #browse .textbox h1 {
-    font-size: 50px;
+    font-size: 55px;
+  }
+  #browse .btnbox {
+    display: flex;
+    flex-direction: column;
+  }
+  #browse .btnbox .btn {
+    padding: 15px 126px;
+    margin-bottom: 10px;
+  }
+  #browse .btnbox .bgc {
+    background-color: #3cc1d8;
+  }
+  #browse .big {
+    padding: 17px 123px;
+    margin-top: 50px;
+    background-color: #3cc1d8;
   }
 }
 

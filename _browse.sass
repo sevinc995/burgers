@@ -1,5 +1,5 @@
 #browse
-    .textbox 
+    .textbox
         width: 500px
         text-align: center
         h1
@@ -14,15 +14,16 @@
             span
                 color: #3cc1d8
                 text-decoration-line: underline
-    .btn
-        font-size: 16px
-        border: 0.5px solid #bdbdbd
-        padding: 15px 46px
-        margin: 0 20px
-        border-radius: 5px
-    .bgc
-        background-color: #3cc1d8
-        color: #ffff
+    .btnbox
+        .btn
+            font-size: 16px
+            border: 0.5px solid #bdbdbd
+            padding: 15px 46px
+            margin: 0 20px
+            border-radius: 5px
+        .bgc
+            background-color: #3cc1d8
+            color: #ffff
     .box
         padding: 30px
         .imgbox
@@ -57,10 +58,20 @@
         .big
             padding: 17px 53px
             margin-top: 50px
-    
-    @media (max-width: 586px)
-        .textbox
-            h1 
-                font-size: 50px
-            
 
+    @media (min-width: 300px)
+        .textbox
+            h1
+                font-size: 55px
+        .btnbox
+            display: flex
+            flex-direction: column
+            .btn
+                padding: 15px 126px
+                margin-bottom: 10px
+            .bgc
+                background-color: #3cc1d8
+        .big
+            padding: 17px 123px
+            margin-top: 50px
+            background-color: #3cc1d8
