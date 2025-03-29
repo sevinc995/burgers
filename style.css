@@ -385,6 +385,18 @@ header nav .home-color {
   color: #676f8b;
   line-height: 1.3;
 }
+@media (max-width: 991px) {
+  #works .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #works .box .textbox {
+    width: 450px;
+  }
+}
+
 #browse .textbox {
   width: 500px;
   text-align: center;
@@ -457,6 +469,11 @@ header nav .home-color {
 #browse .box .big {
   padding: 17px 53px;
   margin-top: 50px;
+}
+@media (max-width: 586px) {
+  #browse .textbox h1 {
+    font-size: 50px;
+  }
 }
 
 #order .imgbox {
