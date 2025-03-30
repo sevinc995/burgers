@@ -222,7 +222,6 @@ header nav .home-color {
 #thehome .textbox h5 {
   color: #676f8b;
   font-size: 20px;
-  margin: 25px 75px 50px 0;
   line-height: 1.3;
 }
 #thehome .textbox .btn {
@@ -235,131 +234,90 @@ header nav .home-color {
 #thehome .imgbox {
   width: 520px;
 }
-@media (max-width: 300px) {
+@media (max-width: 991px) {
   #thehome .textbox {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
   #thehome .textbox h1 {
-    font-size: 40px;
-    font-weight: 700;
     text-align: center;
   }
   #thehome .textbox h5 {
-    font-size: 18px;
-    margin: 25px 15px 50px 0;
     text-align: center;
   }
-  #thehome .textbox .btn {
-    padding: 10px 25px;
-    font-size: 20px;
-    margin: 0 0 30px 0;
-  }
   #thehome .imgbox {
-    width: 250px;
-    margin-left: 10px;
+    margin-top: 30px;
   }
 }
 @media (min-width: 300px) {
   #thehome .textbox {
+    width: 280px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
   #thehome .textbox h1 {
     font-size: 40px;
-    font-weight: 700;
-    text-align: center;
   }
   #thehome .textbox h5 {
     font-size: 18px;
-    margin: 25px 15px 50px 0;
-    text-align: center;
-    padding: 10px 25px;
-    font-size: 20px;
-    margin: 0 0 30px 0;
   }
   #thehome .imgbox {
     width: 250px;
-    margin-left: 10px;
   }
 }
 @media (min-width: 586px) {
   #thehome .textbox {
+    width: 500px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
   #thehome .textbox h1 {
-    font-size: 50px;
-    font-weight: 700;
-    text-align: center;
+    font-size: 45px;
   }
   #thehome .textbox h5 {
     font-size: 20px;
-    margin: 25px 15px 50px 0;
-    text-align: center;
-  }
-  #thehome .textbox .btn {
-    padding: 10px 25px;
-    font-size: 20px;
-    margin: 0 0 30px 0;
   }
   #thehome .imgbox {
     width: 400px;
-    margin-left: 30px;
   }
 }
 @media (min-width: 768px) {
   #thehome .textbox {
+    width: 650px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
   #thehome .textbox h1 {
-    font-size: 53px;
-    font-weight: 700;
-    text-align: center;
+    font-size: 50px;
   }
   #thehome .textbox h5 {
     font-size: 20px;
-    margin: 25px 75px 50px 0;
-    text-align: center;
-  }
-  #thehome .textbox .btn {
-    padding: 13px 30px;
-    font-size: 20px;
-    margin: 0 0 30px 0;
   }
   #thehome .imgbox {
-    width: 470px;
+    width: 480px;
   }
 }
 @media (min-width: 992px) {
   #thehome .textbox {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 450px;
   }
   #thehome .textbox h1 {
     font-size: 60px;
-    font-weight: 700;
-    text-align: center;
   }
   #thehome .textbox h5 {
+    margin: 10px 0 20px 25px;
     font-size: 20px;
-    margin: 25px 35px 50px 0;
-    text-align: center;
-  }
-  #thehome .textbox .btn {
-    padding: 13px 30px;
-    font-size: 20px;
-    margin: 0 0 30px 0;
   }
   #thehome .imgbox {
-    width: 500px;
-    margin-left: -20px;
+    width: 520px;
   }
 }
 
@@ -391,9 +349,6 @@ header nav .home-color {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  #works .box .textbox {
-    width: 450px;
   }
 }
 
@@ -626,6 +581,64 @@ header nav .home-color {
   border-radius: 5px;
   padding: 13px 34px;
 }
+@media (max-width: 991px) {
+  #order .textbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #order .textbox h1 {
+    text-align: center;
+  }
+  #order .textbox h5 {
+    text-align: center;
+  }
+}
+@media (min-width: 300px) {
+  #order .imgbox {
+    width: 250px;
+  }
+  #order .textbox h1 {
+    font-size: 40px;
+  }
+  #order .textbox h5 {
+    font-size: 18px;
+  }
+}
+@media (min-width: 586px) {
+  #order .imgbox {
+    width: 400px;
+  }
+  #order .textbox h1 {
+    font-size: 45px;
+  }
+  #order .textbox h5 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 768px) {
+  #order .imgbox {
+    width: 500px;
+  }
+  #order .textbox h1 {
+    font-size: 50px;
+  }
+  #order .textbox h5 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 992px) {
+  #order .imgbox {
+    width: 600px;
+  }
+  #order .textbox h1 {
+    font-size: 60px;
+  }
+  #order .textbox h5 {
+    font-size: 20px;
+  }
+}
 
 #callour {
   background-color: #f1f8f9;
@@ -649,6 +662,107 @@ header nav .home-color {
 }
 #callour .imgbox {
   width: 520px;
+}
+@media (max-width: 991px) {
+  #callour .textbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #callour .textbox h1 {
+    text-align: center;
+  }
+  #callour .textbox h5 {
+    text-align: center;
+  }
+  #callour .imgbox {
+    margin-top: 30px;
+  }
+}
+@media (min-width: 300px) {
+  #callour .textbox {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #callour .textbox h1 {
+    font-size: 40px;
+  }
+  #callour .textbox h5 {
+    font-size: 18px;
+  }
+  #callour .imgbox {
+    width: 250px;
+  }
+}
+@media (min-width: 586px) {
+  #callour .textbox {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #callour .textbox h1 {
+    font-size: 45px;
+  }
+  #callour .textbox h5 {
+    font-size: 20px;
+  }
+  #callour .imgbox {
+    width: 400px;
+  }
+}
+@media (min-width: 768px) {
+  #callour .textbox {
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #callour .textbox h1 {
+    font-size: 50px;
+  }
+  #callour .textbox h5 {
+    font-size: 20px;
+  }
+  #callour .imgbox {
+    width: 480px;
+  }
+}
+@media (min-width: 992px) {
+  #callour .textbox {
+    width: 450px;
+  }
+  #callour .textbox h1 {
+    font-size: 60px;
+  }
+  #callour .textbox h5 {
+    margin: 10px 0 20px 0;
+    font-size: 20px;
+  }
+  #callour .imgbox {
+    width: 520px;
+  }
+}
+@media (min-width: 1200px) {
+  #callour .textbox {
+    width: 500px;
+  }
+  #callour .textbox h1 {
+    font-size: 60px;
+  }
+  #callour .textbox h5 {
+    margin: 10px 0 30px 0;
+    font-size: 20px;
+  }
+  #callour .imgbox {
+    width: 520px;
+  }
 }
 
 #support .textbox h1 {

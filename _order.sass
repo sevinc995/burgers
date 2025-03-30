@@ -18,28 +18,48 @@
             border-radius: 5px
             padding: 13px 34px
 
-    // @media (min-width: 768px)
-    //     .imgbox
-    //         width: 450px
-    //     .textbox
-    //         display: flex
-    //         flex-direction: column
-    //         align-items: center
-    //         h1
-    //             font-size: 55px
-    //             text-align: center
-    //         h5
-    //             text-align: center
+    @media (max-width: 991px)
+        .textbox
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            h1 
+                text-align: center
+            h5 
+                text-align: center
 
-    // @media (min-width: 992)
-    //     .imgbox
-    //         width: 600px
-    //     .textbox
-    //         display: flex
-    //         flex-direction: column
-    //         align-items: start
-    //         h1
-    //             font-size: 60px
-    //             text-align: start
-    //         h5
-    //             text-align: start
+    @media (min-width: 300px)
+        .imgbox
+            width: 250px
+        .textbox
+            h1 
+                font-size: 40px
+            h5 
+                font-size: 18px
+    @media (min-width: 586px)
+        .imgbox
+            width: 400px
+        .textbox
+            h1 
+                font-size: 45px
+            h5 
+                font-size: 20px
+            
+    @media (min-width: 768px)
+        .imgbox
+            width: 500px
+        .textbox
+            h1 
+                font-size: 50px
+            h5 
+                font-size: 20px
+
+    @media (min-width: 992px)
+        .imgbox
+            width: 600px
+        .textbox
+            h1 
+                font-size: 60px
+            h5 
+                font-size: 20px
