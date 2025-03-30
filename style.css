@@ -17,16 +17,120 @@ section {
 header {
   padding: 20px 0;
 }
-header .imgbox {
+header .menu .imgbox {
   width: 40px;
 }
-header nav a {
+header .menu nav a {
   font-size: 20px;
   color: #8c8999;
   margin-right: 30px;
 }
-header nav .home-color {
+header .menu nav .home-color {
   color: #74bebc;
+}
+@media (max-width: 586px) {
+  header nav {
+    display: none;
+  }
+  header .icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #37b6be;
+    position: relative;
+    font-size: 25px;
+    color: white;
+  }
+  header .circle {
+    position: absolute;
+    top: -7px;
+    left: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    color: #37b6be;
+  }
+  header .bars {
+    width: 50px;
+    height: 50px;
+    background-color: #eaeef1;
+    color: #8e8f91;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+  }
+}
+@media (min-width: 586px) {
+  header nav {
+    display: none;
+  }
+  header .icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #37b6be;
+    position: relative;
+    font-size: 25px;
+    color: white;
+  }
+  header .circle {
+    position: absolute;
+    top: -7px;
+    left: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    color: #37b6be;
+  }
+  header .bars {
+    width: 50px;
+    height: 50px;
+    background-color: #eaeef1;
+    color: #8e8f91;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+  }
+}
+@media (min-width: 768px) {
+  header nav, header .icon, header .circle {
+    display: none;
+  }
+}
+@media (min-width: 991px) {
+  header .icon, header .circle, header .bars {
+    display: none;
+  }
+  header nav {
+    display: flex;
+    flex-direction: row;
+  }
+  header nav a {
+    font-size: 20px;
+    color: #8c8999;
+    margin-right: 30px;
+  }
+  header nav .home-color {
+    color: #74bebc;
+  }
 }
 
 #beautiful {
@@ -777,9 +881,12 @@ header nav .home-color {
   }
 }
 
+#support .textbox {
+  max-width: 100%;
+  max-height: 100%;
+}
 #support .textbox h1 {
   font-weight: 700;
-  font-size: 60px;
   color: white;
   margin: 0 70px 0 40px;
   line-height: 1.1;
@@ -794,6 +901,54 @@ header nav .home-color {
   padding: 10px 30px;
   margin: 30px 0 0 40px;
 }
+#support .imgbox {
+  max-width: 100%;
+  max-height: 100%;
+}
 #support .bgc {
   background-color: #35b6c1;
+}
+@media (min-width: 300px) {
+  #support .bgc {
+    margin: 10px;
+  }
+  #support .bgc .textbox {
+    padding: 20px 0 20px 0;
+  }
+  #support .bgc .textbox h1 {
+    font-size: 30px;
+  }
+}
+@media (min-width: 586px) {
+  #support .bgc {
+    margin: 10px;
+  }
+  #support .bgc .textbox {
+    padding: 40px 0 40px 0;
+  }
+  #support .bgc .textbox h1 {
+    font-size: 40px;
+  }
+}
+@media (min-width: 768px) {
+  #support .bgc {
+    margin: 10px;
+  }
+  #support .bgc .textbox {
+    padding: 60px 0 60px 0;
+  }
+  #support .bgc .textbox h1 {
+    font-size: 50px;
+  }
+}
+@media (min-width: 990px) {
+  #support .bgc {
+    margin: 10px;
+  }
+  #support .bgc .textbox {
+    padding: 80px 0 80px 0;
+  }
+  #support .bgc .textbox h1 {
+    font-size: 60px;
+  }
 }/*# sourceMappingURL=style.css.map */

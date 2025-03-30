@@ -1,8 +1,10 @@
 #support
     .textbox
+        max-width: 100%
+        max-height: 100%
         h1
             font-weight: 700
-            font-size: 60px
+            //font-size: 60px
             color: #ffff
             margin: 0 70px 0 40px
             line-height: 1.1
@@ -14,8 +16,38 @@
             background-color: #ffff
             padding: 10px 30px
             margin: 30px 0 0 40px
+    .imgbox
+        max-width: 100%
+        max-height: 100%
     .bgc
         background-color: #35b6c1
 
-    
-        
+    @media (min-width: 300px)
+        .bgc
+            margin: 10px
+            .textbox
+                padding: 20px 0 20px 0
+                h1
+                    font-size: 30px
+
+    @media (min-width: 586px)
+        .bgc
+            margin: 10px
+            .textbox
+                padding: 40px 0 40px 0
+                h1
+                    font-size: 40px
+    @media (min-width: 768px)
+        .bgc
+            margin: 10px
+            .textbox
+                padding: 60px 0 60px 0
+                h1
+                    font-size: 50px
+    @media (min-width: 990px)
+        .bgc
+            margin: 10px
+            .textbox
+                padding: 80px 0 80px 0
+                h1
+                    font-size: 60px

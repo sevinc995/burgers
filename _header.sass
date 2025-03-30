@@ -1,11 +1,104 @@
 header
     padding: 20px 0
-    .imgbox
-        width: 40px
-    nav
-        a
-            font-size: 20px
-            color: #8c8999
-            margin-right: 30px
-        .home-color
-            color: #74bebc
+    .menu
+        .imgbox
+            width: 40px
+        nav
+            a
+                font-size: 20px
+                color: #8c8999
+                margin-right: 30px
+            .home-color
+                color: #74bebc
+
+    @media(max-width: 586px)
+        nav
+            display: none
+        .icon
+            width: 50px
+            height: 50px
+            border-radius: 5px
+            display: flex
+            justify-content: center
+            align-items: center
+            background-color: #37b6be
+            position: relative
+            font-size: 25px
+            color: #ffff
+        .circle
+            position: absolute
+            top: -7px
+            left: 35px
+            display: flex
+            justify-content: center
+            align-items: center
+            font-size: 10px
+            width: 20px
+            height: 20px 
+            border-radius: 50%
+            background-color: #ffff
+            color: #37b6be
+        .bars
+            width: 50px
+            height: 50px
+            background-color: #eaeef1
+            color: #8e8f91
+            display: flex
+            justify-content: center
+            align-items: center
+            border-radius: 5px         
+
+    @media(min-width: 586px)
+        nav
+            display: none
+        .icon
+            width: 50px
+            height: 50px
+            border-radius: 5px
+            display: flex
+            justify-content: center
+            align-items: center
+            background-color: #37b6be
+            position: relative
+            font-size: 25px
+            color: #ffff
+        .circle
+            position: absolute
+            top: -7px
+            left: 35px
+            display: flex
+            justify-content: center
+            align-items: center
+            font-size: 10px
+            width: 20px
+            height: 20px 
+            border-radius: 50%
+            background-color: #ffff
+            color: #37b6be
+        .bars
+            width: 50px
+            height: 50px
+            background-color: #eaeef1
+            color: #8e8f91
+            display: flex
+            justify-content: center
+            align-items: center
+            border-radius: 5px
+
+    @media (min-width: 768px)
+        nav, .icon, .circle
+            display: none
+    
+    @media (min-width: 991px)
+        .icon, .circle, .bars
+            display: none
+        nav
+            display: flex
+            flex-direction: row
+            a
+                font-size: 20px
+                color: #8c8999
+                margin-right: 30px
+            .home-color
+                color: #74bebc
+            
