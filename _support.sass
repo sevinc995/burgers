@@ -4,7 +4,7 @@
         max-height: 100%
         h1
             font-weight: 700
-            //font-size: 60px
+            font-size: 60px
             color: #ffff
             margin: 0 70px 0 40px
             line-height: 1.1
@@ -21,33 +21,30 @@
         max-height: 100%
     .bgc
         background-color: #35b6c1
-
-    @media (min-width: 300px)
+    @media (max-width: 991px)
+        .imgbox
+            height: 75%
         .bgc
-            margin: 10px
-            .textbox
-                padding: 20px 0 20px 0
-                h1
-                    font-size: 30px
-
-    @media (min-width: 586px)
+            padding: 90px 0
+            margin: -20px 0
+        .textbox
+            h1
+                font-size: 40px
+    @media (max-width: 768px)
+        .imgbox
+            height: 90%
         .bgc
-            margin: 10px
-            .textbox
-                padding: 40px 0 40px 0
-                h1
-                    font-size: 40px
-    @media (min-width: 768px)
+            margin: -20px 0
+            padding: 90px 0
+        .textbox
+            h1
+                font-size: 40px
+    @media (max-width: 576px)
+        .imgbox
+            height: 100%
         .bgc
-            margin: 10px
-            .textbox
-                padding: 60px 0 60px 0
-                h1
-                    font-size: 50px
-    @media (min-width: 990px)
-        .bgc
-            margin: 10px
-            .textbox
-                padding: 80px 0 80px 0
-                h1
-                    font-size: 60px
+            padding: 30px 0
+        .textbox
+            h1
+                font-size: 40px
+   
